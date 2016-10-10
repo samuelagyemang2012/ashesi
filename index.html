@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>nativeDroid II - jQueryMobile Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="./css/font-awesome.css"/>
+    <link rel="stylesheet" href="./css/jquery.mobile.min.css"/>
+    <link rel="stylesheet" href="./vendor/waves/waves.min.css"/>
+    <link rel="stylesheet" href="./vendor/wow/animate.css"/>
+    <link rel="stylesheet" href="./css/nativedroid2.css"/>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/jquery-mobile.js"></script>
+    <script src="./vendor/waves/waves.min.js"></script>
+    <script src="./vendor/wow/wow.min.js"></script>
+    <script src="./js/nativedroid2.js"></script>
+    <!--<script src="/nd2settings.js"></script>-->
+
+</head>
+
+
+<body>
+<!--Page 1-->
+<div data-role="page" id="landingPage">
+    <div data-role="header" data-position="fixed" class="wow fadeIn" style="background-color: #B83838">
+        <a href="#bottomsheetblock" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'>
+            <!--<i class="zmdi zmdi-more-vert"></i>-->
+        </a>
+
+        <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <!--<i class="zmdi zmdi-menu"></i>-->
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.4s'></h1>
+    </div>
+
+    <div data-role="content">
+        <div class="align-center">
+            <h1 style="font-size: 30px; font-weight: lighter">Welcome to Ashesi</h1>
+            <img src="./img/places/Ashesi.png" style="height: 300px; width: 300px">
+
+            <a data-transition="slide" href="#pageone" data-role="button" class="ui-btn-raised"
+               style="background-color: #B83838; color: white">
+                Explore
+            </a>
+
+        </div>
+    </div>
+</div>
+<!--//Page 1-->
+
+<!--Page 2-->
+<div data-role="page" id="pageone">
+    <div data-role="header" style="background-color: #B83838">
+        <h1></h1>
+        <a href="#landingPage" class="ui-btn ui-btn-icon-right" data-transition="flip">
+            <i class="zmdi zmdi-home"></i>
+        </a>
+    </div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-icon="false">
+            <li data-role="list-divider">
+                Locations
+            </li>
+            <li>
+                <a href="#norton" data-transition="pop">
+                    <img src="./img/places/NM.jpg" class="ui-thumbnail ui-thumbnail-circular"/>
+                    <h2>Norton Mutolsky</h2>
+                    <p>207</p>
+                </a>
+            </li>
+            <li>
+                <a href="#amphi" data-transition="pop">
+                    <img src="./img/places/AM.jpg" class="ui-thumbnail ui-thumbnail-circular"/>
+                    <h2>The Amphitheatre</h2>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="#lib" data-transition="pop">
+                    <img src="./img/places/TW.jpg" class="ui-thumbnail ui-thumbnail-circular"/>
+                    <h2>Todd & Warren Library</h2>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="#caf" data-transition="pop">
+                    <img src="./img/places/AC.jpg" class="ui-thumbnail ui-thumbnail-circular"/>
+                    <h2>Akornor Cafeteria</h2>
+                    <p></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--Page 2-->
+
+<!--Norton page-->
+<div data-role="page" id="norton">
+    <div data-role="header" style="background-color: #B83838">
+        <h1></h1>
+        <a href="#landingPage" class="ui-btn ui-btn-icon-right" data-transition="flip">
+            <i class="zmdi zmdi-home"></i>
+        </a>
+    </div>
+
+    <div data-role="content">
+        <div class="nd2-card">
+
+            <div class="card-title has-avatar">
+                <!--<img class="card-avatar" src="//lorempixel.com/200/200/people/9/">-->
+                <h3 class="card-primary-title">Norton Mutolsky</h3>
+                <h5 class="card-subtitle">207</h5>
+            </div>
+
+            <div class="card-media">
+                <img src="./img/places/norton.jpg">
+            </div>
+
+            <div class="card-supporting-text has-action">
+                <strong>Norton Mutolsky</strong> is a multi-purpose hall where students can have lectures,presentations and shows.
+            </div>
+
+            <div class="card-action">
+                <div class="row between-xs">
+                    <div class="col-xs-4">
+                        <div class="box">
+                            <a href="#pageone" data-transition="flow" class="ui-btn ui-btn-inline ui-btn-fab">
+                                <i class='zmdi zmdi-arrow-back'></i>
+                            </a>
+                            <!--<a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-videocam'></i></a>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--//Norton page-->
+
+<!--Amphitheatre-->
+<div data-role="page" id="amphi">
+    <div data-role="header" style="background-color: #B83838">
+        <h1></h1>
+        <a href="#landingPage" class="ui-btn ui-btn-icon-right" data-transition="flip">
+            <i class="zmdi zmdi-home"></i>
+        </a>
+    </div>
+
+    <div data-role="content">
+        <div class="nd2-card">
+
+            <div class="card-title has-avatar">
+                <!--<img class="card-avatar" src="//lorempixel.com/200/200/people/9/">-->
+                <h3 class="card-primary-title">The Amphitheatre</h3>
+                <!--<h5 class="card-subtitle">207</h5>-->
+            </div>
+
+            <div class="card-media">
+                <img src="./img/places/amphi.jpg">
+            </div>
+
+            <div class="card-supporting-text has-action">
+                <strong>The Amphitheatre</strong> is a great open door space to hang out and have group meetings.
+            </div>
+
+            <div class="card-action">
+                <div class="row between-xs">
+                    <div class="col-xs-4">
+                        <div class="box">
+                            <a href="#pageone" data-transition="flow" class="ui-btn ui-btn-inline ui-btn-fab">
+                                <i class='zmdi zmdi-arrow-back'></i>
+                            </a>
+                            <!--<a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-videocam'></i></a>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--//Amphitheatre-->
+
+<!--Library-->
+<div data-role="page" id="lib">
+    <div data-role="header" style="background-color: #B83838">
+        <h1></h1>
+        <a href="#landingPage" class="ui-btn ui-btn-icon-right" data-transition="flip">
+            <i class="zmdi zmdi-home"></i>
+        </a>
+    </div>
+
+    <div data-role="content">
+        <div class="nd2-card">
+
+            <div class="card-title has-avatar">
+                <!--<img class="card-avatar" src="//lorempixel.com/200/200/people/9/">-->
+                <h3 class="card-primary-title">Todd and Warren Library</h3>
+                <!--<h5 class="card-subtitle">207</h5>-->
+            </div>
+
+            <div class="card-media">
+                <img src="./img/places/lib.jpg">
+            </div>
+
+            <div class="card-supporting-text has-action">
+                <strong>The Todd and Warren Library</strong> is a place to study and find great online resourcs to aid
+                student research.
+            </div>
+
+            <div class="card-action">
+                <div class="row between-xs">
+                    <div class="col-xs-4">
+                        <div class="box">
+                            <a href="#pageone" data-transition="flow" class="ui-btn ui-btn-inline ui-btn-fab">
+                                <i class='zmdi zmdi-arrow-back'></i>
+                            </a>
+                            <!--<a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-videocam'></i></a>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--//Library-->
+
+<!--Cafeteria-->
+<div data-role="page" id="caf">
+    <div data-role="header" style="background-color: #B83838">
+        <h1></h1>
+        <a href="#landingPage" class="ui-btn ui-btn-icon-right" data-transition="flip">
+            <i class="zmdi zmdi-home"></i>
+        </a>
+    </div>
+
+    <div data-role="content">
+        <div class="nd2-card">
+
+            <div class="card-title has-avatar">
+                <!--<img class="card-avatar" src="//lorempixel.com/200/200/people/9/">-->
+                <h3 class="card-primary-title">Todd and Warren Library</h3>
+                <!--<h5 class="card-subtitle">207</h5>-->
+            </div>
+
+            <div class="card-media">
+                <img src="./img/places/caf.jpg">
+            </div>
+
+            <div class="card-supporting-text has-action">
+                <strong>The Akornor Cafeteria</strong> is a place to find healthy meals, salads and fruits to keep you going.
+            </div>
+
+            <div class="card-action">
+                <div class="row between-xs">
+                    <div class="col-xs-4">
+                        <div class="box">
+                            <a href="#pageone" data-transition="flow" class="ui-btn ui-btn-inline ui-btn-fab">
+                                <i class='zmdi zmdi-arrow-back'></i>
+                            </a>
+                            <!--<a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-videocam'></i></a>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--//Cafeteria-->
+</body>
